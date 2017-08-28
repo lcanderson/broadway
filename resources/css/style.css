@@ -1,10 +1,10 @@
 /* Set background image for background class */
 .background {
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 
 /* Center all text on page */
-.body {
+body {
   text-align: center;
 }
 
@@ -35,9 +35,33 @@ h4 {
   color: white
 }
 
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+/* format links */
+a {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+/* format footer */
 footer {
+    background-color: dimgray;
+    text-align: left;
+}
+
+footer a {
+  font-family: Helvetica;
+  font-size: 11px;
+  text-align: left;
+  color: white;
+}
+
+footer p {
   font-family: Helvetica;
   font-size: 11px;
   color: white;
-  background-color: dimgray;
 }
